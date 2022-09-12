@@ -29,7 +29,7 @@ export const Details = () => {
 	  <div className="row">
 	
 		<div className="col fw-bold">
-			<h3 className="text-danger">Name</h3>
+			<h3 className="text-danger">Nombre</h3>
 			{store.details && store.details.properties.name}
 		</div>
 		

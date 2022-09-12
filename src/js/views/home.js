@@ -31,7 +31,7 @@ export const Home = () => {
 			})}
 		</div>
 		
-		<h1 className="text-dark fw-bold">Vehiculos</h1>
+		<h1 className="text-dark fw-bold">Vehículos</h1>
 		<div className="d-flex flex-row flex-nowrap overflow-auto">
 			{store.vehicles && store.vehicles.map((vehicle)=> {
 				return <Card key={vehicle.uid} item={vehicle} endpoint="vehicles" imagen={vehUrl}/>
